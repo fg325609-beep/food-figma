@@ -235,19 +235,98 @@ main{
         }
     }
 
+
+    .section_{
+        .container{
+            .section_sri{
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .section_left{
+                    display: flex;
+                    align-items: center;
+                    .sect_left_one{
+                        z-index: 1;
+                        position: absolute;
+                       left: 20px;
+                      
+                        .sect_left_two{
+                            z-index: 20;
+
+                        }
+                    }
+
+                }
+                .section_right{
+                    width: 40%;
+                    h3{
+                        font-family: Roboto;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 20%;
+                        vertical-align: middle;
+                        text-transform: uppercase;
+                        color: rgba(220, 120, 11, 1);
+                        
+                    }
+                    h1{
+                        font-family: Philosopher;
+                       font-weight: 700;
+                       font-size: 31.25px;
+                       line-height: 40.63px;
+                       letter-spacing: 0%;
+                       
+                    }
+                    p{
+                        font-family: Roboto;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        opacity: 0.5;
+                        padding: 30px 0;
+                        
+                    }
+                    a{
+                        padding: 11px 30px;
+                        background: rgba(220, 120, 11, 1);
+                        border-radius: 7px;
+                        color: white;
+                        font-family: Roboto;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        &:hover{
+                             background: rgb(211, 161, 109);
+                             cursor: pointer;
+
+                        }
+                        
+                    }
+                }
+            }
+
+    }
+  }
+
     section{
         .container{
             .sect_theare{
                 padding-bottom: 100px;
-                a{
+                .sect_theare_a{
                  
                     
-                    justify-items: center;
                     text-align: center;
+                    justify-items: center;
+                   a{
                     border: 1px solid rgba(220, 120, 11, 1);
                 padding: 11px 20px;
                 border-radius: 20px;
                 color: black;
+                   }
             }
             a:hover{
                 background: red;
@@ -316,6 +395,212 @@ main{
 
                     }
                 }
+            }
+        }
+    }
+
+
+
+    .section_five{
+        background: rgba(251, 241, 231, 1);
+        .container{
+            .section_five{
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .sect_left{
+                    width: 50%;
+                    h3{
+                        font-family: Roboto;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 20%;
+                        vertical-align: middle;
+                        text-transform: uppercase;
+                        
+                    }
+                    .sect_five_p{
+                        padding: 20px 0;
+                    }
+                    h1{
+                        font-family: Philosopher;
+                        font-weight: 700;
+                        font-size: 31.25px;
+                        line-height: 40.63px;
+                        letter-spacing: 0%;
+                        
+                    }
+                    font-family: Roboto;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    
+                }
+                .sect_linklar{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    .sect_linklar_one{
+                        display: flex;
+                        align-items: center;
+                        font-family: Roboto;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        padding: 10px 30px;
+                        border-radius: 7px;
+                        border: 1px solid black;
+                        &:hover{
+                            background: rgb(15, 14, 14);
+                            color: white;
+                        }
+                        
+                    }
+                    .sect_linklar_two{
+                        display: flex;
+                        align-items: center;
+                        padding: 10px 30px;
+                        font-family: Roboto;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                         border-radius: 7px;
+                        border: 1px solid black;
+                         &:hover{
+                            background: rgb(15, 14, 14);
+                            color: white;
+                        }
+                        
+                    }
+                }
+                .sect_right{
+                       transform: scale(1.2);
+                    width: 35%;
+                }
+            }
+        }
+    }
+
+    section{
+        .container{
+            .sect_six{
+                width: 100%;
+                a{
+                  
+                    font-size: 20px;
+                    font-weight: 900;
+                }
+                width: 100%;
+                padding: 100px 0;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                .sect_six_two{
+                    align-content: space-between;
+                    gap: 20px;
+                  text-align: center;
+                    width: 70%;
+                    flex-direction: column;
+                    h3{
+                        font-family: Roboto;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 20%;
+                        text-align: center;
+                        vertical-align: middle;
+                        text-transform: uppercase;
+                        color: rgba(220, 120, 11, 1);
+                        
+                    }
+                    h1{
+                        font-family: Philosopher;
+                        font-weight: 700;
+                        font-size: 31.25px;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        vertical-align: middle;
+                        
+                    }
+                    p{
+                        font-family: Roboto;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        text-align: center;
+                        vertical-align: middle;
+                        padding: 20px 0;
+                        
+                    }
+                    text-align: center;
+                    .iconlar{
+                        justify-content: center;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+
+    .section_seven{
+        background: rgb(227, 228, 188);
+        .container{
+            .sect_seven{
+                text-align: center;
+                width: 100%;
+                h3{
+                    font-family: Roboto;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 100%;
+                    letter-spacing: 20%;
+                    text-align: center;
+                    vertical-align: middle;
+                    text-transform: uppercase;
+                    
+                }
+                h1{
+                    font-family: Philosopher;
+                    font-weight: 700;
+                    font-size: 31.25px;
+                    line-height: 40.6px;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    vertical-align: middle;
+                    
+                }
+                form{
+                    text-align: center;
+                    padding:20px 0 ;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 auto;
+                    width: 40%;
+                    input{
+                        padding: 20px 10px;
+                        width: 100%;
+                        border: none;
+                        outline: none;
+                       border-radius: 10px;
+                        a{
+                             padding: 20px 10px;
+                             background: rgba(220, 120, 11, 1);
+                             color: white;
+                        }
+
+                    }
+                }
+                text-align: center;
+                padding: 200px 0;
+                width: 100%;
             }
         }
     }
@@ -389,6 +674,106 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1220px){
+    section{
+        .container{
+            .section_five{
+                .sect_right{
+                    width: 50%;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@media(max-width:1020px){
+    .section_{
+         .container{
+            .section_sri{
+                width: 100%;
+            flex-direction: column-reverse;
+            text-align: center;
+            padding-bottom: 50px;
+            
+               
+                .section_left{
+                    text-align: center;
+                    justify-items: center;
+                    margin: 0 auto ;
+                    .sect_left_two{
+                        display: none;
+                    }
+                     width: 10%;
+                    .sect_left_one{
+                   display: none;
+                    }
+                }
+                .section_right{
+                    h1{
+
+                        width: 100%;
+                    }
+                        width: 100%;
+
+                }
+            
+                }
+            }
+         }
+    }
+
+
+
+
+
+
+    @media(max-width:650px){
+        main{
+            section{
+                .container{
+                    .section_five{
+                        text-align: center;
+                        flex-direction: column-reverse;
+                        .sect_left{
+                            .sect_linklar{
+                                flex-wrap: wrap;
+                            }
+                            width: 100%;
+                            h1{
+                                width: 100%;
+                            }
+                        }
+                .sect_right{
+                    width: 50%;
+                    img{
+                        transform: scale(0.8);
+                        width: 100%;
+                    }
+                }
+            }
+
+                }
+            }
+        }
+
+    }
 
 
 
